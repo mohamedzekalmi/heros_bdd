@@ -1,9 +1,2 @@
 <?php
-    require_once 'partials/header.php';
-?>
-
-<?php phpinfo(); ?>
-
-<?php
-    require_once 'partials/footer.php';
-?>
+    require_once( __DIR__ . "/config/router.php" );
