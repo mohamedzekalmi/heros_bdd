@@ -1,10 +1,12 @@
 <?php 
+    require_once (__DIR__ . "/database.php");
 
 // Définition des routes
 // Ce tableau associe des chemins d'URI à des fichiers de contrôleurs spécifiques
 // Le chemin dans l'URL (comme '/') est relié au contrôleur correspondant (comme 'HomeController.php')
 $routes = [
     '/' => 'HomeController.php',
+    '/register' => 'RegisterController.php'
 ];
 
 // Récupération de l'URI actuelle de la requête utilisateur
